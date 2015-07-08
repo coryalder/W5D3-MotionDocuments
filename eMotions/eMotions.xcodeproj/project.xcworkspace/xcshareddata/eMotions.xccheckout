@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E6C2FBE-2BAF-4C2C-ACD8-242E58B273F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC09A6A07B24D81FF545F18304764FD230FEEA67</key>
+		<string>https://github.com/coryalder/W5D3-MotionDocuments.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eMotions.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC09A6A07B24D81FF545F18304764FD230FEEA67</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/coryalder/W5D3-MotionDocuments.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC09A6A07B24D81FF545F18304764FD230FEEA67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC09A6A07B24D81FF545F18304764FD230FEEA67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eMotions</string>
+		</dict>
+	</array>
+</dict>
+</plist>
