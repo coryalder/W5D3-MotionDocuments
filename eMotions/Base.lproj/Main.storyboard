@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ved-IS-joK">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Aob-rD-FeW"/>
+                                    <constraint firstAttribute="width" constant="300" id="tcT-OO-nWH"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lS-Al-NPd">
+                                <rect key="frame" x="266" y="458" width="68" height="30"/>
+                                <state key="normal" title="Open In...">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openIn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NXy-NL-d6L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VT4-Nn-P6O">
+                                <rect key="frame" x="281" y="112" width="38" height="30"/>
+                                <state key="normal" title="Open">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="open:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qax-CA-emn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Ved-IS-joK" secondAttribute="centerY" id="3Q4-8b-elW"/>
+                            <constraint firstAttribute="centerX" secondItem="Ved-IS-joK" secondAttribute="centerX" id="C8e-PI-dXL"/>
+                            <constraint firstItem="Ved-IS-joK" firstAttribute="top" secondItem="VT4-Nn-P6O" secondAttribute="bottom" constant="8" id="IpK-nX-6e9"/>
+                            <constraint firstAttribute="centerX" secondItem="3lS-Al-NPd" secondAttribute="centerX" id="RlA-Go-Q4e"/>
+                            <constraint firstItem="3lS-Al-NPd" firstAttribute="top" secondItem="Ved-IS-joK" secondAttribute="bottom" constant="8" id="Tvi-HI-DcH"/>
+                            <constraint firstAttribute="centerX" secondItem="VT4-Nn-P6O" secondAttribute="centerX" id="eI2-A3-Gnf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Ved-IS-joK" id="D6g-04-jTw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pizza.jpg" width="350" height="300"/>
+    </resources>
+</document>
